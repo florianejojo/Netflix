@@ -9,10 +9,6 @@
     /* background-color: lawngreen; */
 }
 
-.section {
-    border: pink solid 3px;
-}
-
 .container {
     background-color: black;
     margin-bottom: 0;
@@ -25,6 +21,8 @@ h2 {
     padding: 20px 0;
 }
 
-.img {
-    border: lightblue solid 2px;
+.carrousel {
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
 }
