@@ -1,1 +1,30 @@
 /* Other rules */
+* {
+    box-sizing: border-box;
+}
+
+#logo {
+    height: 100px;
+    width: 105px;
+    /* background-color: lawngreen; */
+}
+
+.section {
+    border: pink solid 3px;
+}
+
+.container {
+    background-color: black;
+    margin-bottom: 0;
+    padding-left: 30px;
+}
+h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.img {
+    border: lightblue solid 2px;
+}
