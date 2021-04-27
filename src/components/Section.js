@@ -6,7 +6,6 @@ const Section = (props) => {
             <h2>{props.title}</h2>
             <div className="carrousel">
                 {props.tabImg.map((elem, index) => {
-                    // console.log(index);
                     return <img className="img" src={elem} alt="" />;
                 })}
             </div>

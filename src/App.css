@@ -6,23 +6,37 @@
 #logo {
     height: 100px;
     width: 105px;
-    /* background-color: lawngreen; */
 }
 
 .container {
     background-color: black;
     margin-bottom: 0;
-    padding-left: 30px;
+    padding-left: 50px;
 }
+.section {
+    padding: 10px 0;
+}
+
 h2 {
     color: white;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
     padding: 20px 0;
 }
 
 .carrousel {
     display: flex;
-    overflow: hidden;
     overflow-x: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.carrousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carrousel img {
+    height: 125px;
 }
